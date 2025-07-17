@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import API_BASE_URL from '../config';
+export { API_BASE_URL, IMAGE_BASE_URL };
 import { fetchTopMovies } from '../api/tmdb';  // We'll create this file
 
 const DashboardPage = () => {
