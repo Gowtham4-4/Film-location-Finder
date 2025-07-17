@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import { API_BASE_URL, IMAGE_BASE_URL } from '../config';
+import API_BASE_URL from '../config';
+
 
 const LocationListPage = () => {
   const [locations, setLocations] = useState([]);
