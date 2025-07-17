@@ -13,7 +13,10 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Enable CORS for all routes
-app.use(cors());
+app.use(cors({
+  origin: 'https://cinespot.vercel.app'
+}));
+
 
 // Middleware to parse JSON bodies
 app.use(express.json());
