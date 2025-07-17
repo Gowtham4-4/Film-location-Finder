@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { API_BASE_URL, IMAGE_BASE_URL } from '../config';
+import API_BASE_URL from '../config';
 import { searchMovies, getMovieDetails } from '../api/tmdb'; // getMovieDetails added
 
 const SearchResultsPage = () => {
