@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { API_BASE_URL, IMAGE_BASE_URL } from '../config';
+import API_BASE_URL from '../config';
+
 
 const AddLocationPage = () => {
   const [name, setName] = useState("");
