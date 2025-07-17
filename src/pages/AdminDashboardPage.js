@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { API_BASE_URL, IMAGE_BASE_URL } from '../config';
+import API_BASE_URL from '../config';
+
 
 const AdminDashboardPage = () => {
   const [locations, setLocations] = useState([]);
