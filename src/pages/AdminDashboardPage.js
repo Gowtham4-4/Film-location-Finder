@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-export { API_BASE_URL, IMAGE_BASE_URL };
+import { API_BASE_URL, IMAGE_BASE_URL };
 
 
 const AdminDashboardPage = () => {
