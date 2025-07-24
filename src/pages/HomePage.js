@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { API_BASE_URL, IMAGE_BASE_URL } from '../config';
-
+import { API_BASE_URL, IMAGE_BASE_URL } from '../config'; // or './constants' or the correct path
 
 const HomePage = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -99,9 +98,21 @@ const HomePage = () => {
 
       {/* Footer */}
       <footer style={footerStyle}>
-        <p style={footerTextStyle}>© 2025 Cinespot. All rights reserved.</p>
-        <p style={footerTextStyle}>Follow us on social media!</p>
-      </footer>
+  <p style={footerTextStyle}>© 2025 Cinespot. All rights reserved.</p>
+  <p style={footerTextStyle}>Follow us on social media!</p>
+  <div style={iconContainerStyle}>
+    <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
+      <i className="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
+      <i className="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://www.instagram.com/crazy_4235_?igsh=MXZmZDZhYXA0bGJscw==" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
+      <i className="fab fa-instagram"></i> Instagram
+    </a>
+  </div>
+</footer>
+
     </div>
   );
 };
@@ -189,4 +200,18 @@ const footerStyle = {
 const footerTextStyle = {
   fontSize: '1rem',
   margin: '5px 0',
+};
+const iconContainerStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  gap: '20px',
+  marginTop: '10px',
+  flexWrap: 'wrap',
+};
+
+const iconLinkStyle = {
+  color: '#00FF00',
+  fontWeight: 'bold',
+  textDecoration: 'none',
+  fontSize: '1rem',
 };
