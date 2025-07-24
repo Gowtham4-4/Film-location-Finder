@@ -101,10 +101,10 @@ const HomePage = () => {
   <p style={footerTextStyle}>© 2025 Cinespot. All rights reserved.</p>
   <p style={footerTextStyle}>Follow us on social media!</p>
   <div style={iconContainerStyle}>
-    <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
+    <a href="https://github.com/Gowtham4-4" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
       <i className="fab fa-github"></i> GitHub
     </a>
-    <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
+    <a href="https://www.linkedin.com/in/gowtham-perumallapalli-67438a2b8/" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
       <i className="fab fa-linkedin"></i> LinkedIn
     </a>
     <a href="https://www.instagram.com/crazy_4235_?igsh=MXZmZDZhYXA0bGJscw==" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
