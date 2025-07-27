@@ -8,6 +8,17 @@
 > https://cinespot4.vercel.app/
 
 ---
+## Screenshots
+
+### 🔹 Image 1
+![Image 1](2.png)
+
+### 🔹 Image 2
+![Image 2](1.png)
+
+### 🔹 Image 3
+![Image 3](3.png)
+
 
 ## 📸 Features
 
