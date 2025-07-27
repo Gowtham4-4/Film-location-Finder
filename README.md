@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 Live Demo
-> [Coming Soon / Add Link If Deployed]
+> https://cinespot4.vercel.app/
 
 ---
 
